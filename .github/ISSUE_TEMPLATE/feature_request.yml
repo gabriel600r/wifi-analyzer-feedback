@@ -1,0 +1,19 @@
+name: "\U0001F4A1 Feature Request"
+description: Sugerir una mejora o función nueva / Suggest an improvement or new feature
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description / Descripción
+      description: What would you like? / ¿Qué te gustaría?
+      placeholder: Describe the feature / Describí la función
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use case / Caso de uso
+      description: Why is this useful? / ¿Por qué sería útil?
+    validations:
+      required: false

@@ -1,0 +1,44 @@
+name: "\U0001F41B Bug Report"
+description: Reportar un error o problema / Report a bug or issue
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: App version / Versión de la app
+      placeholder: "e.g. v0.50.2"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device & Android version / Dispositivo y versión de Android
+      placeholder: "e.g. Samsung Galaxy S23, Android 14"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description / Descripción
+      description: Describe the bug / Describí el error
+      placeholder: What happened? / ¿Qué pasó?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Pasos para reproducir
+      description: How can we reproduce this? / ¿Cómo se puede reproducir?
+      placeholder: |
+        1. Go to...
+        2. Tap on...
+        3. See error
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Capturas de pantalla
+      description: If applicable / Si aplica
+    validations:
+      required: false
