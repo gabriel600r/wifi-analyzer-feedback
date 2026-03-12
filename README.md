@@ -4,8 +4,9 @@
   <h1>EgeaINC WiFi Analyzer</h1>
   <p><b>Tu Red WiFi y Móvil, Bajo Control Absoluto</b></p>
   
+  <br/>
   <a href="https://egeainc.com/wifi">
-    <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Descargar en Google Play"/>
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play" height="80"/>
   </a>
 </div>
 
