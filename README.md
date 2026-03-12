@@ -14,7 +14,12 @@
 
 Analizador profesional de WiFi, redes celulares y suite de herramientas IT. Diseñado para técnicos, administradores de red, gamers y usuarios avanzados que necesitan diagnosticar, monitorear y optimizar todas sus conexiones al máximo nivel.
 
-Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyberpunk "glass"**. Visualiza la intensidad de señal, estándares WiFi, parámetros celulares (RSRP, SINR), IP, DNS y mucho más, todo en un solo lugar.
+Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyberpunk "glass"**. El Panel Principal es un centro de comando que te muestra en una sola vista:
+- **Estado Global:** Gauge animado de salud de conexión en tiempo real.
+- **Red WiFi:** SSID, Potencia (dBm), Link Speed, Estándar (ej. WiFi 6 / 802.11ax), Seguridad y Dirección MAC (BSSID).
+- **Métricas IP:** Local IP, Máscara de Subred, y servidores DNS (1 y 2).
+- **Enrutamiento:** Puertas de enlace (Router IP), Frecuencia (2.4 / 5 GHz), Canales y Gráfico histórico animado con Ping al Router constante.
+- **Salida a Internet:** Tu IP Pública externa, Proveedor (ISP) y Ping persistente a servidores globales (ej. Google 8.8.8.8) medidos directamente en gráficas continuas.
 
 ---
 
