@@ -48,6 +48,17 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
   <img src="./8.png?v=2" width="23%" alt="Utilidades"/>
 </div>
 
+<br/>
+
+<div align="center">
+  <h3>🎥 Video Demostrativo</h3>
+  <a href="https://www.youtube.com/shorts/OfS71W6PvSc" target="_blank">
+    <img src="https://img.youtube.com/vi/OfS71W6PvSc/0.jpg" alt="Ver el Video Demostrativo de EgeaINC WiFi Analyzer" width="250" style="border-radius: 12px;"/>
+  </a>
+  <br/>
+  <p><i>Haz clic en la imagen para ver el YouTube Short en acción</i></p>
+</div>
+
 ---
 
 ## 🛠️ SUITE DE HERRAMIENTAS INTEGRADA
