@@ -13,7 +13,7 @@
 <br/>
 
 <div align="center">
-  <b>🇪🇸 Español</b> | <a href="README-en.md">🇺🇸 English</a>
+  <b>�� Español</b> | <a href="README-en.md">🇺🇸 English</a>
 </div>
 
 <br/>
