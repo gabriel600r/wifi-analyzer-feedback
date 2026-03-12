@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Reemplaza la URL de abajo con el enlace real a tu logo -->
-  <img src="https://play-lh.googleusercontent.com/FwB36OqO6UoXXi07s2yW5l1_SDBrI0zXzI4V2s5p6002v89cOQZQ3yD7M4e1f_K0u20=w240-h480-rw" alt="EgeaINC WiFi Analyzer Logo" width="150" style="border-radius: 20px;"/>
+  <img src="./logo.png" alt="EgeaINC WiFi Analyzer Logo" width="150" style="border-radius: 20px;"/>
   <h1>EgeaINC WiFi Analyzer</h1>
   <p><b>Tu Red WiFi y Móvil, Bajo Control Absoluto</b></p>
   
@@ -23,6 +23,24 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 - **Interfaz Cyberpunk Mejorada:** Animación de revelado en el gauge de señal, timer flotante arrastrable (FAB), botón Start/Stop modernizado y gradientes premium.
 - **Estándar SIECOR:** Integrado al visor de códigos de colores FO.
 - **Mejoras y Correcciones:** Radar LAN mejorado, escáneres inteligentes con detección en tiempo real (etiquetas para dispositivos nuevos/offline), historial de Speed Test ampliado y el Ping Monitor ahora verifica GPS/WiFi antes de iniciar.
+
+---
+
+## 📸 INTERFAZ Y HERRAMIENTAS
+
+<div align="center">
+  <img src="./1.png" width="23%" alt="Pantalla de inicio"/>
+  <img src="./2.png" width="23%" alt="Escáner LAN"/>
+  <img src="./3.png" width="23%" alt="Monitor Celular"/>
+  <img src="./4.png" width="23%" alt="Canales WiFi"/>
+</div>
+
+<div align="center">
+  <img src="./5.png" width="23%" alt="Ping Monitor"/>
+  <img src="./6.png" width="23%" alt="Código Colores FO"/>
+  <img src="./7.png" width="23%" alt="Speed Test"/>
+  <img src="./8.png" width="23%" alt="Utilidades"/>
+</div>
 
 ---
 
