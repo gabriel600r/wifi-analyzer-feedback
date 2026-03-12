@@ -13,7 +13,7 @@
 <br/>
 
 <div align="center">
-  <b>�� Español</b> | <a href="README-en.md">🇺🇸 English</a>
+  <b>🇦🇷 Español</b> | <a href="README-en.md">🇺🇸 English</a>
 </div>
 
 <br/>
@@ -52,6 +52,24 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
   <img src="./6.png?v=2" width="23%" alt="Código Colores FO"/>
   <img src="./7.png?v=2" width="23%" alt="Speed Test"/>
   <img src="./8.png?v=2" width="23%" alt="Utilidades"/>
+</div>
+
+<div align="center">
+  <img src="./9.png?v=2" width="23%" alt="Detalles de Ping"/>
+  <img src="./10.png?v=2" width="23%" alt="Dispositivos Conectados"/>
+  <img src="./11.png?v=2" width="23%" alt="Escáner LAN Offline"/>
+  <img src="./12.png?v=2" width="23%" alt="Servicios Locales"/>
+</div>
+
+<div align="center">
+  <img src="./13.png?v=2" width="23%" alt="Estadísticas de Red"/>
+  <img src="./14.png?v=2" width="23%" alt="Analizador UPnP"/>
+  <img src="./15.png?v=2" width="23%" alt="Configuración Avanzada"/>
+  <img src="./16.png?v=2" width="23%" alt="Acerca de"/>
+</div>
+
+<div align="center">
+  <img src="./17.png?v=2" width="23%" alt="Más Funciones"/>
 </div>
 
 <br/>

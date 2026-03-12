@@ -54,6 +54,24 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
   <img src="./8.png?v=2" width="23%" alt="Utilities"/>
 </div>
 
+<div align="center">
+  <img src="./9.png?v=2" width="23%" alt="Ping Details"/>
+  <img src="./10.png?v=2" width="23%" alt="Connected Devices"/>
+  <img src="./11.png?v=2" width="23%" alt="Offline LAN Scanner"/>
+  <img src="./12.png?v=2" width="23%" alt="Local Services"/>
+</div>
+
+<div align="center">
+  <img src="./13.png?v=2" width="23%" alt="Network Statistics"/>
+  <img src="./14.png?v=2" width="23%" alt="UPnP Analyzer"/>
+  <img src="./15.png?v=2" width="23%" alt="Advanced Settings"/>
+  <img src="./16.png?v=2" width="23%" alt="About"/>
+</div>
+
+<div align="center">
+  <img src="./17.png?v=2" width="23%" alt="More Features"/>
+</div>
+
 <br/>
 
 <div align="center">
