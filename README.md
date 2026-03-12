@@ -29,17 +29,17 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 ## 📸 INTERFAZ Y HERRAMIENTAS
 
 <div align="center">
-  <img src="./1.png" width="23%" alt="Pantalla de inicio"/>
-  <img src="./2.png" width="23%" alt="Escáner LAN"/>
-  <img src="./3.png" width="23%" alt="Monitor Celular"/>
-  <img src="./4.png" width="23%" alt="Canales WiFi"/>
+  <img src="./1.png?v=2" width="23%" alt="Pantalla de inicio"/>
+  <img src="./2.png?v=2" width="23%" alt="Escáner LAN"/>
+  <img src="./3.png?v=2" width="23%" alt="Monitor Celular"/>
+  <img src="./4.png?v=2" width="23%" alt="Canales WiFi"/>
 </div>
 
 <div align="center">
-  <img src="./5.png" width="23%" alt="Ping Monitor"/>
-  <img src="./6.png" width="23%" alt="Código Colores FO"/>
-  <img src="./7.png" width="23%" alt="Speed Test"/>
-  <img src="./8.png" width="23%" alt="Utilidades"/>
+  <img src="./5.png?v=2" width="23%" alt="Ping Monitor"/>
+  <img src="./6.png?v=2" width="23%" alt="Código Colores FO"/>
+  <img src="./7.png?v=2" width="23%" alt="Speed Test"/>
+  <img src="./8.png?v=2" width="23%" alt="Utilidades"/>
 </div>
 
 ---
