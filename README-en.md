@@ -76,8 +76,8 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 
 <div align="center">
   <h3>🎥 Demo Video</h3>
-  <a href="https://www.youtube.com/shorts/OfS71W6PvSc" target="_blank">
-    <img src="https://img.youtube.com/vi/OfS71W6PvSc/0.jpg" alt="Watch the EgeaINC WiFi Analyzer Demo Video" width="250" style="border-radius: 12px;"/>
+  <a href="https://www.youtube.com/shorts/nks--i486GM" target="_blank">
+    <img src="https://img.youtube.com/vi/nks--i486GM/0.jpg" alt="Watch the EgeaINC WiFi Analyzer Demo Video" width="250" style="border-radius: 12px;"/>
   </a>
   <br/>
   <p><i>Click the image to watch the YouTube Short in action</i></p>
