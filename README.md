@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Reemplaza la URL de abajo con el enlace real a tu logo -->
-  <img src="./logo.png" alt="EgeaINC WiFi Analyzer Logo" width="150" style="border-radius: 20px;"/>
+  <img src="./assets/logo.png" alt="EgeaINC WiFi Analyzer Logo" width="150" style="border-radius: 20px;"/>
   <h1>EgeaINC WiFi Analyzer</h1>
   <p><b>Tu Red WiFi y Móvil, Bajo Control Absoluto</b></p>
   
@@ -41,35 +41,35 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 ## 📸 INTERFAZ Y HERRAMIENTAS
 
 <div align="center">
-  <img src="./1.png?v=2" width="23%" alt="Pantalla de inicio"/>
-  <img src="./2.png?v=2" width="23%" alt="Escáner LAN"/>
-  <img src="./3.png?v=2" width="23%" alt="Monitor Celular"/>
-  <img src="./4.png?v=2" width="23%" alt="Canales WiFi"/>
+  <img src="./assets/1.png?v=2" width="23%" alt="Pantalla de inicio"/>
+  <img src="./assets/2.png?v=2" width="23%" alt="Escáner LAN"/>
+  <img src="./assets/3.png?v=2" width="23%" alt="Monitor Celular"/>
+  <img src="./assets/4.png?v=2" width="23%" alt="Canales WiFi"/>
 </div>
 
 <div align="center">
-  <img src="./5.png?v=2" width="23%" alt="Ping Monitor"/>
-  <img src="./6.png?v=2" width="23%" alt="Código Colores FO"/>
-  <img src="./7.png?v=2" width="23%" alt="Speed Test"/>
-  <img src="./8.png?v=2" width="23%" alt="Utilidades"/>
+  <img src="./assets/5.png?v=2" width="23%" alt="Ping Monitor"/>
+  <img src="./assets/6.png?v=2" width="23%" alt="Código Colores FO"/>
+  <img src="./assets/7.png?v=2" width="23%" alt="Speed Test"/>
+  <img src="./assets/8.png?v=2" width="23%" alt="Utilidades"/>
 </div>
 
 <div align="center">
-  <img src="./9.png?v=2" width="23%" alt="Detalles de Ping"/>
-  <img src="./10.png?v=2" width="23%" alt="Dispositivos Conectados"/>
-  <img src="./11.png?v=2" width="23%" alt="Escáner LAN Offline"/>
-  <img src="./12.png?v=2" width="23%" alt="Servicios Locales"/>
+  <img src="./assets/9.png?v=2" width="23%" alt="Detalles de Ping"/>
+  <img src="./assets/10.png?v=2" width="23%" alt="Dispositivos Conectados"/>
+  <img src="./assets/11.png?v=2" width="23%" alt="Escáner LAN Offline"/>
+  <img src="./assets/12.png?v=2" width="23%" alt="Servicios Locales"/>
 </div>
 
 <div align="center">
-  <img src="./13.png?v=2" width="23%" alt="Estadísticas de Red"/>
-  <img src="./14.png?v=2" width="23%" alt="Analizador UPnP"/>
-  <img src="./15.png?v=2" width="23%" alt="Configuración Avanzada"/>
-  <img src="./16.png?v=2" width="23%" alt="Acerca de"/>
+  <img src="./assets/13.png?v=2" width="23%" alt="Estadísticas de Red"/>
+  <img src="./assets/14.png?v=2" width="23%" alt="Analizador UPnP"/>
+  <img src="./assets/15.png?v=2" width="23%" alt="Configuración Avanzada"/>
+  <img src="./assets/16.png?v=2" width="23%" alt="Acerca de"/>
 </div>
 
 <div align="center">
-  <img src="./17.png?v=2" width="23%" alt="Más Funciones"/>
+  <img src="./assets/17.png?v=2" width="23%" alt="Más Funciones"/>
 </div>
 
 <br/>
