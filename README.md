@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Reemplaza la URL de abajo con el enlace real a tu logo -->
-  <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=LOGO" alt="EgeaINC WiFi Analyzer Logo" width="150"/>
+  <img src="https://play-lh.googleusercontent.com/FwB36OqO6UoXXi07s2yW5l1_SDBrI0zXzI4V2s5p6002v89cOQZQ3yD7M4e1f_K0u20=w240-h480-rw" alt="EgeaINC WiFi Analyzer Logo" width="150" style="border-radius: 20px;"/>
   <h1>EgeaINC WiFi Analyzer</h1>
   <p><b>Tu Red WiFi y Móvil, Bajo Control Absoluto</b></p>
   
