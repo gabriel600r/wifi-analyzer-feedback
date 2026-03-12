@@ -12,6 +12,12 @@
 
 <br/>
 
+<div align="center">
+  <b>🇪🇸 Español</b> | <a href="README-en.md">🇺🇸 English</a>
+</div>
+
+<br/>
+
 Analizador profesional de WiFi, redes celulares y suite de herramientas IT. Diseñado para técnicos, administradores de red, gamers y usuarios avanzados que necesitan diagnosticar, monitorear y optimizar todas sus conexiones al máximo nivel.
 
 Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyberpunk "glass"**. El Panel Principal es un centro de comando que te muestra en una sola vista:
