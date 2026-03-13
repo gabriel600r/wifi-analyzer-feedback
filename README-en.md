@@ -29,12 +29,14 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 
 ---
 
-## 🔥 NEW IN THIS VERSION: CELLULAR ANALYSIS AND MORE
+## 🔥 NEW IN THIS VERSION (v0.58.1)
 
-- **Mobile Network Analyzer:** New tool to diagnose your cellular connection in real-time (RSRP, RSRQ, SINR, cell data, band, and roaming).
-- **Improved Cyberpunk Interface:** Reveal animation on the signal gauge, draggable floating timer (FAB), modernized Start/Stop button, and premium gradients.
-- **SIECOR Standard:** Integrated into the FO color code viewer.
-- **Improvements and Fixes:** Improved LAN radar, smart scanners with real-time detection (tags for new/offline devices), expanded Speed Test history, and the Ping Monitor now verifies GPS/WiFi before starting.
+- **Favorites Home:** Quick access to your favorite tools from the main screen. Long press on the side menu to check/uncheck them and drag to reorder.
+- **FO Distribution Center View:** New visual tool that simulates a configurable distribution center/centrix (TIA/SIECOR standard, 8 to 32 ports, 1 to 48 trays) with zoom, synchronized scroll, and port details.
+- **Tab Navigation:** Easily access between "Color Code" and "Distribution Center View" with visible tabs, which also remember your last configuration.
+- **General Improvements:** Unified splash and status bar, fixes on Mobile Network Pro button, updated share texts, and improved location banners.
+
+👉 **[View full changelog](CHANGELOG.md)**
 
 ---
 
@@ -70,6 +72,9 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 
 <div align="center">
   <img src="./assets/17.png?v=2" width="23%" alt="More Features"/>
+  <img src="./assets/18.png?v=2" width="23%" alt="FO Distribution Center View"/>
+  <img src="./assets/19.png?v=2" width="23%" alt="Favorites Home"/>
+  <img src="./assets/20.png?v=2" width="23%" alt="FO Port Details"/>
 </div>
 
 <br/>

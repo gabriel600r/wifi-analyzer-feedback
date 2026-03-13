@@ -29,12 +29,14 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 
 ---
 
-## 🔥 NUEVO EN ESTA VERSIÓN: ANÁLISIS CELULAR Y MÁS
+## 🔥 NUEVO EN ESTA VERSIÓN (v0.58.1)
 
-- **Analizador de Red Móvil:** Nueva herramienta para diagnosticar tu conexión celular en tiempo real (RSRP, RSRQ, SINR, datos de celda, banda y roaming).
-- **Interfaz Cyberpunk Mejorada:** Animación de revelado en el gauge de señal, timer flotante arrastrable (FAB), botón Start/Stop modernizado y gradientes premium.
-- **Estándar SIECOR:** Integrado al visor de códigos de colores FO.
-- **Mejoras y Correcciones:** Radar LAN mejorado, escáneres inteligentes con detección en tiempo real (etiquetas para dispositivos nuevos/offline), historial de Speed Test ampliado y el Ping Monitor ahora verifica GPS/WiFi antes de iniciar.
+- **Favoritos en Home:** Acceso rápido a tus herramientas favoritas desde la pantalla principal. Mantené presionado en el menú lateral para marcar/desmarcar y arrastrá para reordenar.
+- **Vista Repartidor de Fibra Óptica:** Nueva herramienta visual que simula un repartidor/centrix configurable (estándar TIA/SIECOR, 8 a 32 puertos, 1 a 48 bandejas) con zoom, scroll sincronizado y detalle por puerto.
+- **Navegación por pestañas:** Accedé fácilmente entre "Código Color" y "Vista Repartidor" con tabs visibles, que además recuerdan tu última configuración.
+- **Mejoras Generales:** Splash y barra de estado unificados, correcciones en el botón Pro de Red Móvil, optimización de textos al compartir, y mejora en banners de ubicación.
+
+👉 **[Ver el historial completo de cambios (Changelog)](CHANGELOG.md)**
 
 ---
 
@@ -70,6 +72,9 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 
 <div align="center">
   <img src="./assets/17.png?v=2" width="23%" alt="Más Funciones"/>
+  <img src="./assets/18.png?v=2" width="23%" alt="Vista Repartidor Fibra"/>
+  <img src="./assets/19.png?v=2" width="23%" alt="Favoritos en Home"/>
+  <img src="./assets/20.png?v=2" width="23%" alt="Detalle de Puerto FO"/>
 </div>
 
 <br/>
