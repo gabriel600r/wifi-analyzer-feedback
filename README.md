@@ -29,12 +29,27 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 
 ---
 
-## 🔥 NUEVO EN ESTA VERSIÓN (v0.58.1)
+## 🔥 NUEVO EN ESTA VERSIÓN (v0.64.1)
 
-- **Favoritos en Home:** Acceso rápido a tus herramientas favoritas desde la pantalla principal. Mantené presionado en el menú lateral para marcar/desmarcar y arrastrá para reordenar.
-- **Vista Repartidor de Fibra Óptica:** Nueva herramienta visual que simula un repartidor/centrix configurable (estándar TIA/SIECOR, 8 a 32 puertos, 1 a 48 bandejas) con zoom, scroll sincronizado y detalle por puerto.
-- **Navegación por pestañas:** Accedé fácilmente entre "Código Color" y "Vista Repartidor" con tabs visibles, que además recuerdan tu última configuración.
-- **Mejoras Generales:** Splash y barra de estado unificados, correcciones en el botón Pro de Red Móvil, optimización de textos al compartir, y mejora en banners de ubicación.
+### Nuevas herramientas
+- **Calculadora IP avanzada:** Subnetting, VLSM y cálculos de red organizados por tabs.
+- **Traceroute visual:** Compará rutas, visualizalas en mapa y guardá historial de trazados.
+- **Historial Whois** integrado en la herramienta DNS.
+
+### Pantalla principal renovada
+- **Barra de salud WiFi:** Indicador visual del estado general de tu conexión.
+- **Pausa y scroll en gráficas:** Nuevo botón pausa que congela las gráficas y permite hacer scroll horizontal para revisar hasta 30 minutos de datos históricos.
+- **Historial agrupado por red:** Los datos se organizan automáticamente por SSID.
+- **Ping más fiable:** 5 paquetes mínimo con sincronización para mediciones más estables.
+
+### Mejoras en herramientas
+- **DNS:** Consultas a múltiples servidores con comparación de resultados.
+- **Escáner de puertos:** Perfiles predefinidos (Web, Gaming, Mail, etc.) para escaneos rápidos.
+- **Favoritos:** Colores por categoría para distinguir herramientas rápidamente.
+
+### Design system completo
+- **Estilo visual unificado:** Todas las pantallas usan el nuevo diseño con cards gradiente navy, bordes accent y sombras consistentes.
+- **Flip clock 3D** compacto para el timer de análisis.
 
 👉 **[Ver el historial completo de cambios (Changelog)](CHANGELOG.md)**
 
