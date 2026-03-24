@@ -29,12 +29,27 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 
 ---
 
-## 🔥 NEW IN THIS VERSION (v0.58.1)
+## 🔥 NEW IN THIS VERSION (v0.66.2)
 
-- **Favorites Home:** Quick access to your favorite tools from the main screen. Long press on the side menu to check/uncheck them and drag to reorder.
-- **FO Distribution Center View:** New visual tool that simulates a configurable distribution center/centrix (TIA/SIECOR standard, 8 to 32 ports, 1 to 48 trays) with zoom, synchronized scroll, and port details.
-- **Tab Navigation:** Easily access between "Color Code" and "Distribution Center View" with visible tabs, which also remember your last configuration.
-- **General Improvements:** Unified splash and status bar, fixes on Mobile Network Pro button, updated share texts, and improved location banners.
+### New Tool: Fiber dB Calculator
+- **Fiber attenuation calculation:** Supports Single Mode (SM G.652), Multimode 50/125, and Multimode 62.5/125 at multiple wavelengths (850, 1300, 1310, 1550 nm).
+- **Freemium model:** Basic attenuation-by-distance calculation is free. Advanced features are Pro:
+  - Splices (fusion/mechanical), connectors, and safety margin.
+  - Visual loss breakdown bar by component.
+  - PASS/FAIL comparison against real OTDR or power meter measurements.
+  - dBm ↔ mW converter with real-time conversion.
+  - History of up to 50 measurements with detail view and swipe-to-delete.
+  - Share results with branding and download link.
+- **Built-in glossary:** Info icons next to each field to learn what each parameter means.
+- **Persistence:** Remembers your last fiber type, wavelength, splice type, and margin.
+- **Non-expert guidance:** Each fiber type includes a description to help you choose the right one.
+
+### Sidebar Reorganized
+- Tools are now sorted by logical category: WiFi → Network/Monitoring → Internet/Exploration → Cabling/Fiber → Utilities.
+- Free and Pro tools appear interleaved by category instead of separated into blocks.
+
+### Visual Improvements
+- **Color-coded selectors:** Each selector (fiber type, wavelength, splice type) has its own distinctive color to break visual monotony.
 
 👉 **[View full changelog](CHANGELOG.md)**
 
@@ -102,11 +117,14 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 - 📱 **Mobile Network:** Deep analysis of cellular signal.
 - 🌍 **Public IP:** Displays your external IP and your ISP.
 
+### Cabling and Fiber Optics
+- 🔌 **RJ-45 Pinout:** Visual guide for wiring UTP cables (T-568A/B).
+- 🎨 **FO Color Code:** Interactive viewer for TIA-598-C and SIECOR standards.
+- 📉 **Fiber dB Calculator:** Calculates expected attenuation for a fiber optic link based on fiber type, wavelength, distance, splices, connectors, and margin. Compare against real measurements (PASS/FAIL) and includes a dBm↔mW converter.
+
 ### Utilities and References
 - 🔑 **Password Generator:** Creates ultra-secure and customizable passwords.
 - 🧮 **IP Calculator:** Calculates subnets, ranges, and CIDR masks.
-- 🔌 **RJ-45 Pinout:** Visual guide for wiring UTP cables (T-568A/B).
-- 🎨 **FO Color Code:** Interactive viewer for TIA-598-C and SIECOR standards.
 
 ---
 

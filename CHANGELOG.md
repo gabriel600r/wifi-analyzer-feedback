@@ -7,6 +7,29 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ---
 
+## [0.66.2] - 2026-03-24
+
+### Nueva herramienta
+- **Calculadora dB Fibra Óptica:** cálculo de atenuación de enlace de fibra óptica con soporte para SM G.652, MM 50/125 y MM 62.5/125 a múltiples longitudes de onda (850, 1300, 1310, 1550 nm).
+- Modelo freemium: cálculo básico gratis; empalmes, conectores, margen, comparación PASS/FAIL, conversor dBm↔mW, historial y compartir son funciones Pro.
+- Glosario integrado con iconos de info en cada campo.
+- Persistencia de configuración (tipo de fibra, longitud de onda, empalme, margen).
+- Guía descriptiva de cada tipo de fibra para usuarios no expertos.
+
+### Sidebar reorganizado
+- Herramientas ordenadas por categoría lógica: WiFi → Red/Monitoreo → Internet/Exploración → Cableado/Fibra → Utilidades.
+- Free y Pro intercaladas por categoría en lugar de separadas en bloques.
+
+### Mejoras visuales
+- Selectores con colores individuales por categoría (tipo de fibra, longitud de onda, tipo de empalme).
+- AppBar con fondo sólido — ya no se transparenta al scrollear.
+
+### Correcciones
+- Fix de solapamiento de la barra de navegación con secciones Pro al hacer scroll.
+- Texto de compartir ahora incluye branding ("Analizador WiFi EgeaINC") y link de descarga.
+
+---
+
 ## [0.64.1] - 2026-03-18
 
 ### Nuevas herramientas

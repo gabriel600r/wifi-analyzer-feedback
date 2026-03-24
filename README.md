@@ -29,27 +29,27 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 
 ---
 
-## 🔥 NUEVO EN ESTA VERSIÓN (v0.64.1)
+## 🔥 NUEVO EN ESTA VERSIÓN (v0.66.2)
 
-### Nuevas herramientas
-- **Calculadora IP avanzada:** Subnetting, VLSM y cálculos de red organizados por tabs.
-- **Traceroute visual:** Compará rutas, visualizalas en mapa y guardá historial de trazados.
-- **Historial Whois** integrado en la herramienta DNS.
+### Nueva herramienta: Calculadora dB Fibra Óptica
+- **Cálculo de atenuación por fibra:** Soporta Monomodo (SM G.652), Multimodo 50/125 y Multimodo 62.5/125 a múltiples longitudes de onda (850, 1300, 1310, 1550 nm).
+- **Modelo freemium:** El cálculo básico de atenuación por distancia es gratis. Las funciones avanzadas son Pro:
+  - Empalmes (fusión/mecánico), conectores y margen de seguridad.
+  - Desglose visual de pérdidas con barra de componentes.
+  - Comparación PASS/FAIL contra medición real con OTDR o power meter.
+  - Conversor dBm ↔ mW con conversión en tiempo real.
+  - Historial de hasta 50 mediciones con detalle y swipe-to-delete.
+  - Compartir resultados con branding y link de descarga.
+- **Glosario integrado:** Iconos de info junto a cada campo para aprender qué es cada parámetro.
+- **Persistencia:** Recuerda tu último tipo de fibra, longitud de onda, tipo de empalme y margen.
+- **Guía para no expertos:** Cada tipo de fibra incluye una descripción para saber cuál elegir.
 
-### Pantalla principal renovada
-- **Barra de salud WiFi:** Indicador visual del estado general de tu conexión.
-- **Pausa y scroll en gráficas:** Nuevo botón pausa que congela las gráficas y permite hacer scroll horizontal para revisar hasta 30 minutos de datos históricos.
-- **Historial agrupado por red:** Los datos se organizan automáticamente por SSID.
-- **Ping más fiable:** 5 paquetes mínimo con sincronización para mediciones más estables.
+### Sidebar reorganizado
+- Las herramientas ahora están ordenadas por categoría lógica: WiFi → Red/Monitoreo → Internet/Exploración → Cableado/Fibra → Utilidades.
+- Las herramientas Free y Pro aparecen intercaladas según su categoría, en lugar de separadas en bloques.
 
-### Mejoras en herramientas
-- **DNS:** Consultas a múltiples servidores con comparación de resultados.
-- **Escáner de puertos:** Perfiles predefinidos (Web, Gaming, Mail, etc.) para escaneos rápidos.
-- **Favoritos:** Colores por categoría para distinguir herramientas rápidamente.
-
-### Design system completo
-- **Estilo visual unificado:** Todas las pantallas usan el nuevo diseño con cards gradiente navy, bordes accent y sombras consistentes.
-- **Flip clock 3D** compacto para el timer de análisis.
+### Mejoras visuales
+- **Selectores con colores por categoría:** Cada selector (tipo de fibra, longitud de onda, tipo de empalme) tiene su propio color distintivo para romper la monotonía visual.
 
 👉 **[Ver el historial completo de cambios (Changelog)](CHANGELOG.md)**
 
@@ -117,11 +117,14 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 - 📱 **Red Móvil:** Análisis profundo de señal celular.
 - 🌍 **IP Pública:** Muestra tu IP externa y tu ISP.
 
+### Cableado y Fibra Óptica
+- 🔌 **Pinout RJ-45:** Guía visual de armado de cables UTP (T-568A/B).
+- 🎨 **Código Color FO:** Visor interactivo de estándares TIA-598-C y SIECOR.
+- 📉 **Calculadora dB Fibra:** Calcula la atenuación esperada de un enlace de fibra óptica según tipo de fibra, longitud de onda, distancia, empalmes, conectores y margen. Compara contra medición real (PASS/FAIL) e incluye conversor dBm↔mW.
+
 ### Utilidades y Referencias
 - 🔑 **Generador Passwords:** Crea claves ultra seguras y personalizables.
 - 🧮 **Calculadora IP:** Calcula subredes, rangos y máscaras CIDR.
-- 🔌 **Pinout RJ-45:** Guía visual de armado de cables UTP (T-568A/B).
-- 🎨 **Código Color FO:** Visor interactivo de estándares TIA-598-C y SIECOR.
 
 ---
 
