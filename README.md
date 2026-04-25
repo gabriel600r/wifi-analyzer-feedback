@@ -29,27 +29,27 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 
 ---
 
-## 🔥 NUEVO EN ESTA VERSIÓN (v0.66.2)
+## 🔥 NUEVO EN ESTA VERSIÓN (v0.73.0)
 
-### Nueva herramienta: Calculadora dB Fibra Óptica
-- **Cálculo de atenuación por fibra:** Soporta Monomodo (SM G.652), Multimodo 50/125 y Multimodo 62.5/125 a múltiples longitudes de onda (850, 1300, 1310, 1550 nm).
-- **Modelo freemium:** El cálculo básico de atenuación por distancia es gratis. Las funciones avanzadas son Pro:
-  - Empalmes (fusión/mecánico), conectores y margen de seguridad.
-  - Desglose visual de pérdidas con barra de componentes.
-  - Comparación PASS/FAIL contra medición real con OTDR o power meter.
-  - Conversor dBm ↔ mW con conversión en tiempo real.
-  - Historial de hasta 50 mediciones con detalle y swipe-to-delete.
-  - Compartir resultados con branding y link de descarga.
-- **Glosario integrado:** Iconos de info junto a cada campo para aprender qué es cada parámetro.
-- **Persistencia:** Recuerda tu último tipo de fibra, longitud de onda, tipo de empalme y margen.
-- **Guía para no expertos:** Cada tipo de fibra incluye una descripción para saber cuál elegir.
+### Skeletons de carga
+- Placeholder con shimmer animado en **Escáner de puertos**, **Whois**, **DNS Lookup** e **Info de celda** mientras los resultados llegan. Reemplaza la pantalla en blanco por una vista con la forma del contenido final, mejorando la sensación de velocidad.
+- Sección **Celdas vecinas** con skeleton durante los primeros polls + mensaje claro cuando no se detectan vecinas.
 
-### Sidebar reorganizado
-- Las herramientas ahora están ordenadas por categoría lógica: WiFi → Red/Monitoreo → Internet/Exploración → Cableado/Fibra → Utilidades.
-- Las herramientas Free y Pro aparecen intercaladas según su categoría, en lugar de separadas en bloques.
+### Recuperación de errores (v0.72)
+- Tarjeta dedicada con ícono, título descriptivo y botón **Reintentar** cuando una consulta falla por timeout, sin internet o error del servidor. Reemplaza el mensaje rojo plano. Aplica a Whois y DNS Lookup.
 
-### Mejoras visuales
-- **Selectores con colores por categoría:** Cada selector (tipo de fibra, longitud de onda, tipo de empalme) tiene su propio color distintivo para romper la monotonía visual.
+### Detección de cambio de red (v0.72)
+- Banner cuando pasás de WiFi a datos móviles (o viceversa) durante un análisis activo. Acción **Detener** para frenar el análisis con un toque.
+
+### Pantalla de Ajustes (v0.71)
+- Nueva pantalla dedicada con todas las opciones en un solo lugar: idioma, sonido, vibración, **servidor de ping** (Google, Cloudflare, OpenDNS, Quad9 o personalizado), datos y privacidad, restaurar Pro y Acerca de.
+- Buscador interno para encontrar opciones al instante.
+
+### IP pública sobre datos móviles (v0.70)
+- Consultá tu IP pública aunque no estés conectado a WiFi. Detección automática del operador celular (Movistar, Claro, Personal, etc.).
+
+### Más mejoras
+- Vibración al iniciar análisis, pull-to-refresh en IP pública, empty states más amigables, pantalla Pro renovada, permiso de ubicación más claro, tour de bienvenida y panel de novedades.
 
 👉 **[Ver el historial completo de cambios (Changelog)](CHANGELOG.md)**
 

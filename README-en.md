@@ -29,27 +29,27 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 
 ---
 
-## 🔥 NEW IN THIS VERSION (v0.66.2)
+## 🔥 NEW IN THIS VERSION (v0.73.0)
 
-### New Tool: Fiber dB Calculator
-- **Fiber attenuation calculation:** Supports Single Mode (SM G.652), Multimode 50/125, and Multimode 62.5/125 at multiple wavelengths (850, 1300, 1310, 1550 nm).
-- **Freemium model:** Basic attenuation-by-distance calculation is free. Advanced features are Pro:
-  - Splices (fusion/mechanical), connectors, and safety margin.
-  - Visual loss breakdown bar by component.
-  - PASS/FAIL comparison against real OTDR or power meter measurements.
-  - dBm ↔ mW converter with real-time conversion.
-  - History of up to 50 measurements with detail view and swipe-to-delete.
-  - Share results with branding and download link.
-- **Built-in glossary:** Info icons next to each field to learn what each parameter means.
-- **Persistence:** Remembers your last fiber type, wavelength, splice type, and margin.
-- **Non-expert guidance:** Each fiber type includes a description to help you choose the right one.
+### Loading skeletons
+- Animated shimmer placeholder in **Port scanner**, **Whois**, **DNS Lookup**, and **Cell info** while results load. Replaces blank screens with a layout shaped like the final content for snappier perceived performance.
+- **Neighbor cells** section with skeleton during initial polls + clear message when none are detected.
 
-### Sidebar Reorganized
-- Tools are now sorted by logical category: WiFi → Network/Monitoring → Internet/Exploration → Cabling/Fiber → Utilities.
-- Free and Pro tools appear interleaved by category instead of separated into blocks.
+### Error recovery (v0.72)
+- Dedicated card with icon, descriptive title, and **Retry** button when a query fails due to timeout, no internet, or server error. Replaces the flat red message. Applies to Whois and DNS Lookup.
 
-### Visual Improvements
-- **Color-coded selectors:** Each selector (fiber type, wavelength, splice type) has its own distinctive color to break visual monotony.
+### Network change detection (v0.72)
+- Banner when you switch from WiFi to mobile data (or vice versa) during an active analysis. **Stop** action to halt the analysis with one tap.
+
+### Settings screen (v0.71)
+- New dedicated screen with every setting in one place: language, sound, haptics, **ping server** (Google, Cloudflare, OpenDNS, Quad9, or custom), data and privacy, restore Pro, and About.
+- Built-in search to find options instantly.
+
+### Public IP over mobile data (v0.70)
+- Check your public IP even without WiFi. Automatic carrier detection (Movistar, Claro, Personal, etc.).
+
+### More improvements
+- Haptic feedback on analysis start, pull-to-refresh on public IP, friendlier empty states, refreshed Pro screen, clearer location permission, welcome tour, and What's New panel.
 
 👉 **[View full changelog](CHANGELOG.md)**
 
