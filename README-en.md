@@ -29,11 +29,16 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 
 ---
 
-## 🔥 NEW IN THIS VERSION (v0.73.0)
+## 🔥 NEW IN THIS VERSION (v0.73.5)
 
-### Loading skeletons
-- Animated shimmer placeholder in **Port scanner**, **Whois**, **DNS Lookup**, and **Cell info** while results load. Replaces blank screens with a layout shaped like the final content for snappier perceived performance.
-- **Neighbor cells** section with skeleton during initial polls + clear message when none are detected.
+### Fiber Optic Color Code tool
+- **Configurable fibers per tray** (12, 24, 36, 48 for TIA / 8, 16, 24, 32 for SIECOR). Supports **Centrix-style** enclosures where one physical tray holds 24 fibers (2 buffers).
+- **Search linked to rack view:** search a fiber in *Color Code*, switch to the *Rack* tab and the fiber stays highlighted with an **animated cyan pulse** while the rack auto-scrolls to its tray.
+- Search result reports **physical tray, position in tray, and inner buffer index**.
+- **Local 1..N port index** visible inside every rack cell so you can spot a fiber quickly when standing in front of the rack.
+
+### Loading skeletons (v0.73.0)
+- Animated shimmer placeholder in **Port scanner**, **Whois**, **DNS Lookup**, and **Cell info** while results load.
 
 ### Error recovery (v0.72)
 - Dedicated card with icon, descriptive title, and **Retry** button when a query fails due to timeout, no internet, or server error. Replaces the flat red message. Applies to Whois and DNS Lookup.

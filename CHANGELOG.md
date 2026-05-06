@@ -7,6 +7,21 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ---
 
+## [0.73.5] - 2026-05-05
+
+### Herramienta Código de Color de Fibra Óptica
+- **Fibras por bandeja configurable** (12, 24, 36, 48 en TIA / 8, 16, 24, 32 en SIECOR). Soporta cajas tipo Centrix donde 1 bandeja física contiene 24 fibras (2 buffers).
+- **Búsqueda enlazada al repartidor:** al buscar una fibra en *Código Color* y pasar a la vista *Repartidor*, el pelo queda resaltado y el rack scrollea automáticamente hasta la bandeja correspondiente.
+- **Estándar y fibras/bandeja sincronizados** entre ambas pestañas, sin pisar la configuración cuando el usuario edita en cualquiera de las dos.
+- Resultado de búsqueda incluye **bandeja física, posición en bandeja y buffer interno** (X/Y) en lugar de solo el buffer.
+- **Índice local 1..N** visible en cada puerto del repartidor para ubicar rápido el pelo cuando estás físicamente frente al rack.
+- **Pulso animado** con glow cyan sobre la fibra resaltada en la vista del repartidor para detectarla de un vistazo.
+
+### What's New
+- Panel de novedades ahora se ajusta al contenido en lugar de ocupar 70% de la pantalla siempre.
+
+---
+
 ## [0.73.0] - 2026-04-25
 
 ### Skeletons de carga

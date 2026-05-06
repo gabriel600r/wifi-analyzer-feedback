@@ -29,11 +29,16 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 
 ---
 
-## 🔥 NUEVO EN ESTA VERSIÓN (v0.73.0)
+## 🔥 NUEVO EN ESTA VERSIÓN (v0.73.5)
 
-### Skeletons de carga
-- Placeholder con shimmer animado en **Escáner de puertos**, **Whois**, **DNS Lookup** e **Info de celda** mientras los resultados llegan. Reemplaza la pantalla en blanco por una vista con la forma del contenido final, mejorando la sensación de velocidad.
-- Sección **Celdas vecinas** con skeleton durante los primeros polls + mensaje claro cuando no se detectan vecinas.
+### Herramienta Código de Color de Fibra Óptica
+- **Fibras por bandeja configurable** (12, 24, 36, 48 en TIA / 8, 16, 24, 32 en SIECOR). Soporta cajas tipo **Centrix** donde 1 bandeja física contiene 24 fibras (2 buffers).
+- **Búsqueda enlazada al repartidor:** buscás una fibra en *Código Color* y al pasar a la vista *Repartidor* el pelo queda resaltado con un **pulso animado cyan** y el rack scrollea automáticamente hasta esa bandeja.
+- Resultado de búsqueda con **bandeja física, posición en bandeja y buffer interno**.
+- **Índice local 1..N** visible en cada puerto del repartidor para ubicar el pelo rápido cuando estás físicamente frente al rack.
+
+### Skeletons de carga (v0.73.0)
+- Placeholder con shimmer animado en **Escáner de puertos**, **Whois**, **DNS Lookup** e **Info de celda** mientras los resultados llegan.
 
 ### Recuperación de errores (v0.72)
 - Tarjeta dedicada con ícono, título descriptivo y botón **Reintentar** cuando una consulta falla por timeout, sin internet o error del servidor. Reemplaza el mensaje rojo plano. Aplica a Whois y DNS Lookup.
