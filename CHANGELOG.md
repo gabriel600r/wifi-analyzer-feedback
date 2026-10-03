@@ -7,6 +7,65 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ---
 
+## [0.74.0] - 2026-10-03
+
+### Todo gratis
+- Todo lo que era Pro ahora es gratis: Traceroute, DNS, Whois, Wake on LAN, UPnP, seguir una red en primera persona, los historiales completos, el fabricante de cada equipo, exportar y compartir, las celdas vecinas y más. Sin candados ni cupos.
+
+### Publicidad que no molesta
+- Banner chico (Google AdMob) al pie de las pantallas de resultados, historiales y calculadoras. Nunca en el análisis del inicio, el Monitor de ping, un speed test o escaneo en curso, el analizador de canales ni el repartidor de fibra.
+- En el Espacio Económico Europeo, el Reino Unido y Suiza la app pide consentimiento antes de mostrar anuncios personalizados; la elección se cambia en Ajustes, "Privacidad de anuncios".
+
+### Pro ahora saca los anuncios
+- Pro sigue siendo el mismo pago único y ahora quita la publicidad. Quien ya era Pro no ve anuncios. En el menú: "Quitar anuncios".
+
+### Nuevo: nombres de celdas (CLF)
+- Importá un archivo .clf (el formato de G-MoN) en Ajustes → Red móvil y Red Móvil muestra el nombre de la celda servidora en la sección Celda, en el historial de mediciones y en el informe que compartís.
+- Se busca por operador (MCC/MNC) y Cell ID: ECI en LTE, NCI en 5G, CID largo en 3G, LAC + CID en 2G. Si la celda no está pero otra del mismo eNB sí, muestra ese sitio y lo aclara.
+- Acepta CLF en UTF-8 y en Latin-1, con o sin cabecera. Las celdas vecinas no se nombran: Android solo da su PCI y el CLF no lo trae.
+
+### Arreglado
+- Con los datos por WiFi, Red Móvil mostraba "Tipo de red: Unknown" aunque el celular estuviera en 4G; ahora usa la red en la que está registrado.
+
+### Privacidad
+- Nueva [política de privacidad](PRIVACY_POLICY.md) con la publicidad y cada servicio externo que usa cada herramienta.
+
+---
+
+## [0.73.8] - 2026-09-23
+
+### Nuevo
+- **Seguí una red hasta encontrar el equipo:** desde el Analizador de canales, una red se abre en primera persona: la señal en grande, si te estás acercando o alejando, tu mejor punto, los últimos 3 minutos y los datos del equipo.
+- **Deslizá entre 2.4, 5 y 6 GHz** en el Analizador de canales; la banda de 6 GHz aparece si el celular ve redes WiFi 6E.
+- **Repartidor de fibra:** zoom con dos dedos, vista horizontal, color de buffer según la norma (TIA de a 12, SIECOR de a 8), bandejas de 8 a 48 fibras en las dos solapas y números de fibra que se leen sobre cualquier color.
+- **Gráficos de ping y señal suaves**, que dibujan solo lo que se ve y gastan menos batería.
+- **Ubicación explicada:** antes del permiso de Android, la app explica por qué lo pide.
+
+### Arreglado
+- La app deja de dar por bueno lo que no midió: speed test fallido, puertos que el re-escaneo no tocó, filas sin dato en el inicio.
+- Ninguna consulta se queda colgada: DNS, Whois, IP pública, verificación de filtraciones y UPnP tienen tiempo límite y ofrecen reintentar.
+- Latencias y pérdidas que dicen la verdad en traceroute, monitor de ping y escáner de puertos; las redes WPA3 ya no figuran como WPA2.
+- Historiales que guardan lo que pasó (WiFi, IP pública, escáner de red, Info de celda).
+- El mapa del traceroute ya no queda en gris con un solo salto ubicado.
+- Calculadora dB con coma decimal; la pantalla no se apaga en pleno análisis; todo se lee mejor con letra grande.
+- Novedades, Código Color y el escáner de red más livianos.
+
+---
+
+## [0.73.7] - 2026-08-01
+
+### Cambiado
+- Compatible con Android 16 (targetSdk 36), requisito de Google Play.
+
+---
+
+## [0.73.6] - 2026-07-22
+
+### Cambiado
+- Compras con Google Play Billing Library 8.
+
+---
+
 ## [0.73.5] - 2026-05-05
 
 ### Herramienta Código de Color de Fibra Óptica

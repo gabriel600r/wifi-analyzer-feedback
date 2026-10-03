@@ -24,37 +24,33 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 - **Global Status:** Real-time animated connection health gauge.
 - **WiFi Network:** SSID, Signal Strength (dBm), Link Speed, Standard (e.g., WiFi 6 / 802.11ax), Security, and MAC Address (BSSID).
 - **IP Metrics:** Local IP, Subnet Mask, and DNS Servers (1 and 2).
-- **Routing:** Gateways (Router IP), Frequency (2.4 / 5 GHz), Channels, and animated historical graph with constant Ping to the Router.
+- **Routing:** Gateways (Router IP), Frequency (2.4 / 5 / 6 GHz), Channels, and animated historical graph with constant Ping to the Router.
 - **Internet Outbound:** Your external Public IP, Provider (ISP), and persistent Ping to global servers (e.g., Google 8.8.8.8) measured directly on continuous charts.
 
 ---
 
-## 🔥 NEW IN THIS VERSION (v0.73.5)
+## 🔥 NEW IN THIS VERSION (v0.74.0)
 
-### Fiber Optic Color Code tool
-- **Configurable fibers per tray** (12, 24, 36, 48 for TIA / 8, 16, 24, 32 for SIECOR). Supports **Centrix-style** enclosures where one physical tray holds 24 fibers (2 buffers).
-- **Search linked to rack view:** search a fiber in *Color Code*, switch to the *Rack* tab and the fiber stays highlighted with an **animated cyan pulse** while the rack auto-scrolls to its tray.
-- Search result reports **physical tray, position in tray, and inner buffer index**.
-- **Local 1..N port index** visible inside every rack cell so you can spot a fiber quickly when standing in front of the rack.
+### Everything is free
+- Everything that was Pro is now free: **Traceroute, DNS, Whois, Wake on LAN, UPnP**, tracking a network in first person, full histories, each device's vendor, export and share, neighbor cells and more. No locks, no limits.
 
-### Loading skeletons (v0.73.0)
-- Animated shimmer placeholder in **Port scanner**, **Whois**, **DNS Lookup**, and **Cell info** while results load.
+### Ads that stay out of the way
+- In return, the app shows a **small banner** at the bottom of result, history and calculator screens.
+- **Never while you measure:** not in the home analysis, the Ping monitor, a running speed test or scan, the channel analyzer or the fiber rack.
 
-### Error recovery (v0.72)
-- Dedicated card with icon, descriptive title, and **Retry** button when a query fails due to timeout, no internet, or server error. Replaces the flat red message. Applies to Whois and DNS Lookup.
+### Pro now removes the ads
+- Pro is still the same **one-time purchase**, and now it lets you use the app without ads. If you are already Pro, you will not see any ads. Find it in the menu under "Remove ads".
 
-### Network change detection (v0.72)
-- Banner when you switch from WiFi to mobile data (or vice versa) during an active analysis. **Stop** action to halt the analysis with one tap.
+### Cell names, like in G-MoN
+- Import a **.clf** file (the G-MoN format) in *Settings → Mobile network* and **Mobile Network** tells you which site you are on: the name shows in the Cell section, in the measurement history and in the report you share.
+- It is looked up by operator and Cell ID. If your cell is not there but another one of the same eNB is, it shows that site and says so. The file stays on your phone.
 
-### Settings screen (v0.71)
-- New dedicated screen with every setting in one place: language, sound, haptics, **ping server** (Google, Cloudflare, OpenDNS, Quad9, or custom), data and privacy, restore Pro, and About.
-- Built-in search to find options instantly.
-
-### Public IP over mobile data (v0.70)
-- Check your public IP even without WiFi. Automatic carrier detection (Movistar, Claro, Personal, etc.).
-
-### More improvements
-- Haptic feedback on analysis start, pull-to-refresh on public IP, friendlier empty states, refreshed Pro screen, clearer location permission, welcome tour, and What's New panel.
+### In v0.73.8
+- **Track a network down to the device:** tap a network in the Channel analyzer and it opens in first person, with the signal in big numbers and whether you are getting closer or moving away.
+- **Swipe between 2.4, 5 and 6 GHz** in the Channel analyzer (6 GHz if your phone sees WiFi 6E networks).
+- **Fiber rack view** with pinch to zoom, landscape mode, buffer colors that follow the standard and trays from 8 to 48 fibers.
+- **Smoother ping charts** that use less battery.
+- Many fixes: the app no longer reports what it never measured, no lookup hangs, history keeps what happened and everything reads better with large text.
 
 👉 **[View full changelog](CHANGELOG.md)**
 
@@ -63,38 +59,17 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 ## 📸 INTERFACE AND TOOLS
 
 <div align="center">
-  <img src="./assets/1.png?v=2" width="23%" alt="Home Screen"/>
-  <img src="./assets/2.png?v=2" width="23%" alt="LAN Scanner"/>
-  <img src="./assets/3.png?v=2" width="23%" alt="Cellular Monitor"/>
-  <img src="./assets/4.png?v=2" width="23%" alt="WiFi Channels"/>
+  <img src="./assets/ficha/1.png" width="23%" alt="WiFi Signal"/>
+  <img src="./assets/ficha/2.png" width="23%" alt="Speed Test"/>
+  <img src="./assets/ficha/3.png" width="23%" alt="Mobile Network"/>
+  <img src="./assets/ficha/4.png" width="23%" alt="Ping Monitor"/>
 </div>
 
 <div align="center">
-  <img src="./assets/5.png?v=2" width="23%" alt="Ping Monitor"/>
-  <img src="./assets/6.png?v=2" width="23%" alt="FO Color Code"/>
-  <img src="./assets/7.png?v=2" width="23%" alt="Speed Test"/>
-  <img src="./assets/8.png?v=2" width="23%" alt="Utilities"/>
-</div>
-
-<div align="center">
-  <img src="./assets/9.png?v=2" width="23%" alt="Ping Details"/>
-  <img src="./assets/10.png?v=2" width="23%" alt="Connected Devices"/>
-  <img src="./assets/11.png?v=2" width="23%" alt="Offline LAN Scanner"/>
-  <img src="./assets/12.png?v=2" width="23%" alt="Local Services"/>
-</div>
-
-<div align="center">
-  <img src="./assets/13.png?v=2" width="23%" alt="Network Statistics"/>
-  <img src="./assets/14.png?v=2" width="23%" alt="UPnP Analyzer"/>
-  <img src="./assets/15.png?v=2" width="23%" alt="Advanced Settings"/>
-  <img src="./assets/16.png?v=2" width="23%" alt="About"/>
-</div>
-
-<div align="center">
-  <img src="./assets/17.png?v=2" width="23%" alt="More Features"/>
-  <img src="./assets/18.png?v=2" width="23%" alt="FO Distribution Center View"/>
-  <img src="./assets/19.png?v=2" width="23%" alt="Favorites Home"/>
-  <img src="./assets/20.png?v=2" width="23%" alt="FO Port Details"/>
+  <img src="./assets/ficha/5.png" width="23%" alt="WiFi Channels"/>
+  <img src="./assets/ficha/6.png" width="23%" alt="Favorite tools"/>
+  <img src="./assets/ficha/7.png" width="23%" alt="LAN Scanner"/>
+  <img src="./assets/ficha/8.png" width="23%" alt="Port Scanner"/>
 </div>
 
 <br/>
@@ -113,36 +88,37 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 ## 🛠️ INTEGRATED TOOL SUITE
 
 ### Connectivity and Diagnostics
-- 📶 **WiFi Channels:** Analyzes congestion on 2.4GHz and 5GHz to find the optimal channel.
+- 📶 **WiFi Channels:** Analyzes congestion on 2.4, 5 and 6 GHz to find the optimal channel.
+- 🎯 **Network Tracking:** Follow a network's signal in first person to find where the access point is.
 - 📋 **WiFi History:** Logs your connections with signal and ISP data on expandable cards.
 - 🔍 **LAN Scanner:** Discovers devices on your network with smart active/inactive detection.
 - 🚪 **Port Scanner:** Detects open TCP ports and active services (HTTP, SSH, etc.).
 - ⏱️ **Ping Monitor:** Measures latency in real-time with continuous scrolling graphs.
 - 🚀 **Speed Test:** Multi-connection speed test via Cloudflare CDN with bottleneck indicators.
-- 📱 **Mobile Network:** Deep analysis of cellular signal.
-- 🌍 **Public IP:** Displays your external IP and your ISP.
+- 📱 **Mobile Network:** Deep analysis of cellular signal (RSRP, RSRQ, SINR, band, neighbor cells), with each cell's name from a CLF file (G-MoN format).
+- 🌍 **Public IP:** Displays your external IP, your ISP and approximate location.
+- 🛤️ **Traceroute:** The route hop by hop with its times, on a map and with comparison.
+- 🔎 **DNS Lookup:** A, AAAA, MX, TXT, NS, CNAME and SOA records, with the server you choose.
+- 🕵️ **Whois:** Domain registration data.
+- ⚡ **Wake on LAN (WoL):** Turns on devices on your network remotely.
+- 🔌 **UPnP Scanner:** Discovers devices with UPnP enabled.
 
 ### Cabling and Fiber Optics
 - 🔌 **RJ-45 Pinout:** Visual guide for wiring UTP cables (T-568A/B).
-- 🎨 **FO Color Code:** Interactive viewer for TIA-598-C and SIECOR standards.
+- 🎨 **FO Color Code:** Interactive viewer for TIA-598-C and SIECOR standards, with a rack view.
 - 📉 **Fiber dB Calculator:** Calculates expected attenuation for a fiber optic link based on fiber type, wavelength, distance, splices, connectors, and margin. Compare against real measurements (PASS/FAIL) and includes a dBm↔mW converter.
 
 ### Utilities and References
-- 🔑 **Password Generator:** Creates ultra-secure and customizable passwords.
+- 🔑 **Password Generator:** Creates secure passwords and checks for breaches without ever sending the password.
 - 🧮 **IP Calculator:** Calculates subnets, ranges, and CIDR masks.
 
 ---
 
-## 💎 EGEAINC PRO (Premium)
+## 💎 FREE, AND PRO WITHOUT ADS
 
-Unlock advanced tools and remove all limits:
+Every tool is free, with no limits. The app is supported by a small banner that only shows on results, history and calculators, never on the main screen and never while you measure.
 
-- 🔎 **DNS Lookup:** Queries DNS records (A, MX, TXT, NS, etc.).
-- 🕵️ **Whois:** Gets detailed domain registration and ownership information.
-- 🛤️ **Traceroute:** Tracks the route and measures packet hop times across the network.
-- ⚡ **Wake on LAN (WoL):** Turns on computers on your network remotely.
-- 🔌 **UPnP Scanner:** Discovers devices with Universal Plug and Play enabled.
-- ➕ **Additional Pro Features:** Neighboring cell detection (Mobile Network), extended history (Speed Test), and advanced filters.
+If you'd rather not see ads, **EgeaINC Pro** removes them for good with a one-time payment.
 
 ---
 
@@ -151,7 +127,7 @@ Unlock advanced tools and remove all limits:
 - ✔️ **"Glass" dark design:** Optimized for OLED screens.
 - ✔️ **Bilingual Interface:** Available in Spanish and English.
 - ✔️ **Educational Glossary:** Tap any metric to learn technical concepts.
-- ✔️ **Guaranteed Privacy:** Clean, secure experience with no hidden tracking.
+- ✔️ **Your data on your phone:** Measurements and history stay on your phone, with no account and no EgeaINC server. See the [privacy policy](PRIVACY_POLICY.md).
 
 ---
 

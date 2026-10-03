@@ -14,8 +14,9 @@ The App stores the following data **locally on your device only**:
 - **WiFi history:** network name (SSID), signal, speeds, pings, public IP and ISP of the analyses you run.
 - **Tool histories:** network scans (device IPs, MAC addresses, vendors, names and aliases you assign), port scans, speed tests, traceroutes, Whois lookups, public IP changes, cell measurements and fiber loss calculations.
 - **Preferences:** language, favorites, limits and other settings.
+- **Cell names file (CLF):** if you import one in Settings, the App keeps a copy in its private storage, outside Android's backup, to show cell names in Mobile Network.
 
-This data never leaves your device unless you share or export it yourself, and it is deleted when you uninstall the App or clear it from Settings.
+This data never leaves your device unless you share or export it yourself. The only exception is Android's own backup to your Google account, if you have it turned on: Android may back up the App's histories and settings there and restore them when you reinstall the App or change phones. The cell names file is never included in that backup. The data is deleted from the phone when you uninstall the App or clear it from Settings.
 
 ## Advertising
 

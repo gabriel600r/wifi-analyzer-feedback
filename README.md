@@ -24,37 +24,33 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 - **Estado Global:** Gauge animado de salud de conexión en tiempo real.
 - **Red WiFi:** SSID, Potencia (dBm), Link Speed, Estándar (ej. WiFi 6 / 802.11ax), Seguridad y Dirección MAC (BSSID).
 - **Métricas IP:** Local IP, Máscara de Subred, y servidores DNS (1 y 2).
-- **Enrutamiento:** Puertas de enlace (Router IP), Frecuencia (2.4 / 5 GHz), Canales y Gráfico histórico animado con Ping al Router constante.
+- **Enrutamiento:** Puertas de enlace (Router IP), Frecuencia (2.4 / 5 / 6 GHz), Canales y Gráfico histórico animado con Ping al Router constante.
 - **Salida a Internet:** Tu IP Pública externa, Proveedor (ISP) y Ping persistente a servidores globales (ej. Google 8.8.8.8) medidos directamente en gráficas continuas.
 
 ---
 
-## 🔥 NUEVO EN ESTA VERSIÓN (v0.73.5)
+## 🔥 NUEVO EN ESTA VERSIÓN (v0.74.0)
 
-### Herramienta Código de Color de Fibra Óptica
-- **Fibras por bandeja configurable** (12, 24, 36, 48 en TIA / 8, 16, 24, 32 en SIECOR). Soporta cajas tipo **Centrix** donde 1 bandeja física contiene 24 fibras (2 buffers).
-- **Búsqueda enlazada al repartidor:** buscás una fibra en *Código Color* y al pasar a la vista *Repartidor* el pelo queda resaltado con un **pulso animado cyan** y el rack scrollea automáticamente hasta esa bandeja.
-- Resultado de búsqueda con **bandeja física, posición en bandeja y buffer interno**.
-- **Índice local 1..N** visible en cada puerto del repartidor para ubicar el pelo rápido cuando estás físicamente frente al rack.
+### Todo gratis
+- Todo lo que era Pro ahora es gratis: **Traceroute, DNS, Whois, Wake on LAN, UPnP**, seguir una red en primera persona, los historiales completos, el fabricante de cada equipo, exportar y compartir, las celdas vecinas y más. Sin candados ni cupos.
 
-### Skeletons de carga (v0.73.0)
-- Placeholder con shimmer animado en **Escáner de puertos**, **Whois**, **DNS Lookup** e **Info de celda** mientras los resultados llegan.
+### Publicidad que no molesta
+- A cambio, la app muestra un **banner chico** al pie de las pantallas de resultados, historiales y calculadoras.
+- **Nunca mientras medís:** ni en el análisis del inicio, ni en el Monitor de ping, ni en el speed test o un escaneo en curso, ni en el analizador de canales, ni en el repartidor de fibra.
 
-### Recuperación de errores (v0.72)
-- Tarjeta dedicada con ícono, título descriptivo y botón **Reintentar** cuando una consulta falla por timeout, sin internet o error del servidor. Reemplaza el mensaje rojo plano. Aplica a Whois y DNS Lookup.
+### Pro ahora saca los anuncios
+- Pro sigue siendo el mismo **pago único**, y ahora te deja usar la app sin publicidad. Si ya sos Pro, no vas a ver ningún anuncio. Está en el menú, en "Quitar anuncios".
 
-### Detección de cambio de red (v0.72)
-- Banner cuando pasás de WiFi a datos móviles (o viceversa) durante un análisis activo. Acción **Detener** para frenar el análisis con un toque.
+### Nombres de celdas, como en G-MoN
+- Importá un archivo **.clf** (el formato de G-MoN) en *Ajustes → Red móvil* y **Red Móvil** te dice en qué sitio estás: el nombre aparece en la sección Celda, en el historial de mediciones y en el informe que compartís.
+- Se busca por operador y Cell ID. Si tu celda no está pero otra del mismo eNB sí, muestra ese sitio y lo aclara. El archivo queda en tu teléfono.
 
-### Pantalla de Ajustes (v0.71)
-- Nueva pantalla dedicada con todas las opciones en un solo lugar: idioma, sonido, vibración, **servidor de ping** (Google, Cloudflare, OpenDNS, Quad9 o personalizado), datos y privacidad, restaurar Pro y Acerca de.
-- Buscador interno para encontrar opciones al instante.
-
-### IP pública sobre datos móviles (v0.70)
-- Consultá tu IP pública aunque no estés conectado a WiFi. Detección automática del operador celular (Movistar, Claro, Personal, etc.).
-
-### Más mejoras
-- Vibración al iniciar análisis, pull-to-refresh en IP pública, empty states más amigables, pantalla Pro renovada, permiso de ubicación más claro, tour de bienvenida y panel de novedades.
+### En la v0.73.8
+- **Seguí una red hasta encontrar el equipo:** tocá una red en el Analizador de canales y se abre en primera persona, con la señal en grande y si te estás acercando o alejando.
+- **Deslizá entre 2.4, 5 y 6 GHz** en el Analizador de canales (6 GHz si tu celular ve redes WiFi 6E).
+- **Repartidor de fibra** con zoom de dos dedos, vista horizontal, color de buffer según la norma y bandejas de 8 a 48 fibras.
+- **Gráficos de ping más suaves** y que gastan menos batería.
+- Muchos arreglos: la app ya no da por bueno lo que no midió, ninguna consulta se queda colgada, los historiales guardan lo que pasó y todo se lee mejor con letra grande.
 
 👉 **[Ver el historial completo de cambios (Changelog)](CHANGELOG.md)**
 
@@ -63,38 +59,17 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 ## 📸 INTERFAZ Y HERRAMIENTAS
 
 <div align="center">
-  <img src="./assets/1.png?v=2" width="23%" alt="Pantalla de inicio"/>
-  <img src="./assets/2.png?v=2" width="23%" alt="Escáner LAN"/>
-  <img src="./assets/3.png?v=2" width="23%" alt="Monitor Celular"/>
-  <img src="./assets/4.png?v=2" width="23%" alt="Canales WiFi"/>
+  <img src="./assets/ficha/1.png" width="23%" alt="Señal WiFi"/>
+  <img src="./assets/ficha/2.png" width="23%" alt="Speed Test"/>
+  <img src="./assets/ficha/3.png" width="23%" alt="Red Móvil"/>
+  <img src="./assets/ficha/4.png" width="23%" alt="Monitor de Ping"/>
 </div>
 
 <div align="center">
-  <img src="./assets/5.png?v=2" width="23%" alt="Ping Monitor"/>
-  <img src="./assets/6.png?v=2" width="23%" alt="Código Colores FO"/>
-  <img src="./assets/7.png?v=2" width="23%" alt="Speed Test"/>
-  <img src="./assets/8.png?v=2" width="23%" alt="Utilidades"/>
-</div>
-
-<div align="center">
-  <img src="./assets/9.png?v=2" width="23%" alt="Detalles de Ping"/>
-  <img src="./assets/10.png?v=2" width="23%" alt="Dispositivos Conectados"/>
-  <img src="./assets/11.png?v=2" width="23%" alt="Escáner LAN Offline"/>
-  <img src="./assets/12.png?v=2" width="23%" alt="Servicios Locales"/>
-</div>
-
-<div align="center">
-  <img src="./assets/13.png?v=2" width="23%" alt="Estadísticas de Red"/>
-  <img src="./assets/14.png?v=2" width="23%" alt="Analizador UPnP"/>
-  <img src="./assets/15.png?v=2" width="23%" alt="Configuración Avanzada"/>
-  <img src="./assets/16.png?v=2" width="23%" alt="Acerca de"/>
-</div>
-
-<div align="center">
-  <img src="./assets/17.png?v=2" width="23%" alt="Más Funciones"/>
-  <img src="./assets/18.png?v=2" width="23%" alt="Vista Repartidor Fibra"/>
-  <img src="./assets/19.png?v=2" width="23%" alt="Favoritos en Home"/>
-  <img src="./assets/20.png?v=2" width="23%" alt="Detalle de Puerto FO"/>
+  <img src="./assets/ficha/5.png" width="23%" alt="Canales WiFi"/>
+  <img src="./assets/ficha/6.png" width="23%" alt="Herramientas favoritas"/>
+  <img src="./assets/ficha/7.png" width="23%" alt="Escáner LAN"/>
+  <img src="./assets/ficha/8.png" width="23%" alt="Escáner de puertos"/>
 </div>
 
 <br/>
@@ -113,36 +88,37 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 ## 🛠️ SUITE DE HERRAMIENTAS INTEGRADA
 
 ### Conectividad y Diagnóstico
-- 📶 **Canales WiFi:** Analiza la congestión en 2.4GHz y 5GHz para encontrar el canal óptimo.
+- 📶 **Canales WiFi:** Analiza la congestión en 2.4, 5 y 6 GHz para encontrar el canal óptimo.
+- 🎯 **Seguimiento de red:** Seguí la señal de una red en primera persona para encontrar dónde está el equipo.
 - 📋 **Historial WiFi:** Registra tus conexiones con datos de señal e ISP y tarjetas expandibles.
 - 🔍 **Escáner LAN:** Descubre dispositivos en tu red con detección inteligente de altas/bajas.
 - 🚪 **Escáner Puertos:** Detecta puertos TCP abiertos y servicios activos (HTTP, SSH, etc.).
 - ⏱️ **Monitor Ping:** Mide la latencia en tiempo real con gráficas de scroll continuo.
 - 🚀 **Speed Test:** Prueba de velocidad multi-conexión vía Cloudflare CDN con indicadores de cuello de botella.
-- 📱 **Red Móvil:** Análisis profundo de señal celular.
-- 🌍 **IP Pública:** Muestra tu IP externa y tu ISP.
+- 📱 **Red Móvil:** Análisis profundo de señal celular (RSRP, RSRQ, SINR, banda, celdas vecinas), con el nombre de cada celda desde un archivo CLF (formato G-MoN).
+- 🌍 **IP Pública:** Muestra tu IP externa, tu ISP y la ubicación aproximada.
+- 🛤️ **Traceroute:** La ruta salto por salto con sus tiempos, en un mapa y con comparación.
+- 🔎 **DNS Lookup:** Registros A, AAAA, MX, TXT, NS, CNAME y SOA, con el servidor que elijas.
+- 🕵️ **Whois:** Datos de registro de un dominio.
+- ⚡ **Wake on LAN (WoL):** Enciende equipos de tu red a distancia.
+- 🔌 **Escáner UPnP:** Descubre dispositivos con UPnP activo.
 
 ### Cableado y Fibra Óptica
 - 🔌 **Pinout RJ-45:** Guía visual de armado de cables UTP (T-568A/B).
-- 🎨 **Código Color FO:** Visor interactivo de estándares TIA-598-C y SIECOR.
+- 🎨 **Código Color FO:** Visor interactivo de estándares TIA-598-C y SIECOR, con vista de repartidor.
 - 📉 **Calculadora dB Fibra:** Calcula la atenuación esperada de un enlace de fibra óptica según tipo de fibra, longitud de onda, distancia, empalmes, conectores y margen. Compara contra medición real (PASS/FAIL) e incluye conversor dBm↔mW.
 
 ### Utilidades y Referencias
-- 🔑 **Generador Passwords:** Crea claves ultra seguras y personalizables.
+- 🔑 **Generador Passwords:** Crea claves seguras y verifica filtraciones sin enviar nunca la clave.
 - 🧮 **Calculadora IP:** Calcula subredes, rangos y máscaras CIDR.
 
 ---
 
-## 💎 EGEAINC PRO (Premium)
+## 💎 GRATIS, Y PRO SIN PUBLICIDAD
 
-Desbloquea las herramientas avanzadas y elimina todos los límites:
+Todas las herramientas son gratis, sin límites. La app se sostiene con un banner chico que aparece solo en resultados, historiales y calculadoras, nunca en la pantalla principal ni mientras medís.
 
-- 🔎 **DNS Lookup:** Consulta registros DNS (A, MX, TXT, NS, etc.).
-- 🕵️ **Whois:** Obtén información detallada de registro y titularidad de dominios.
-- 🛤️ **Traceroute:** Rastrea la ruta y mide los tiempos de salto de los paquetes en la red.
-- ⚡ **Wake on LAN (WoL):** Enciende equipos de tu red de forma remota.
-- 🔌 **Escáner UPnP:** Descubre dispositivos con Universal Plug and Play activo.
-- ➕ **Funciones Pro adicionales:** Detección de celdas vecinas (Red Móvil), historial extendido (Speed Test) y filtros avanzados.
+Si preferís no ver publicidad, **EgeaINC Pro** la saca para siempre con un pago único.
 
 ---
 
@@ -151,7 +127,7 @@ Desbloquea las herramientas avanzadas y elimina todos los límites:
 - ✔️ **Diseño oscuro "glass":** Optimizado para pantallas OLED.
 - ✔️ **Interfaz bilingüe:** Disponible en Español e Inglés.
 - ✔️ **Glosario Educativo:** Toca cualquier métrica para aprender conceptos técnicos.
-- ✔️ **Privacidad Garantizada:** Experiencia limpia, segura y sin rastreo oculto.
+- ✔️ **Tus datos en tu teléfono:** Las mediciones e historiales quedan en tu celular, sin cuenta y sin servidor de EgeaINC. Ver la [política de privacidad](PRIVACY_POLICY.md).
 
 ---
 
