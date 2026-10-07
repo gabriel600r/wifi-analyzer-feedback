@@ -29,19 +29,24 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 
 ---
 
-## 🔥 NEW IN THIS VERSION (v0.74.0)
+## 🔥 NEW IN THIS VERSION (v0.74.1)
 
-### Everything is free
+### Large text, nothing broken
+- If your phone uses enlarged text, the app follows it up to **30% larger** and stops there. Before, with the largest setting, numbers spilled out of place and some text was cut off.
+- Fixed what got cut off with large text in the Ping monitor, Public IP, the Color code, the Password generator, the Port scanner and the network list in the channel analyzer.
+
+### In v0.74.0
+
+#### Everything is free
 - Everything that was Pro is now free: **Traceroute, DNS, Whois, Wake on LAN, UPnP**, tracking a network in first person, full histories, each device's vendor, export and share, neighbor cells and more. No locks, no limits.
 
-### Ads that stay out of the way
-- In return, the app shows a **small banner** at the bottom of result, history and calculator screens.
-- **Never while you measure:** not in the home analysis, the Ping monitor, a running speed test or scan, the channel analyzer or the fiber rack.
+#### Ads that stay out of the way
+- In return, the app shows a **small banner** at the bottom of result, history and calculator screens. While a speed test or a scan is running, the banner hides.
 
-### Pro now removes the ads
+#### Pro now removes the ads
 - Pro is still the same **one-time purchase**, and now it lets you use the app without ads. If you are already Pro, you will not see any ads. Find it in the menu under "Remove ads".
 
-### Cell names, like in G-MoN
+#### Cell names, like in G-MoN
 - Import a **.clf** file (the G-MoN format) in *Settings → Mobile network* and **Mobile Network** tells you which site you are on: the name shows in the Cell section, in the measurement history and in the report you share.
 - It is looked up by operator and Cell ID. If your cell is not there but another one of the same eNB is, it shows that site and says so. The file stays on your phone.
 
@@ -116,7 +121,7 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 
 ## 💎 FREE, AND PRO WITHOUT ADS
 
-Every tool is free, with no limits. The app is supported by a small banner that only shows on results, history and calculators, never on the main screen and never while you measure.
+Every tool is free, with no limits. The app is supported by discreet ads.
 
 If you'd rather not see ads, **EgeaINC Pro** removes them for good with a one-time payment.
 

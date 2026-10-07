@@ -7,13 +7,21 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ---
 
+## [0.74.1] - 2026-10-07
+
+### Letra grande
+- La app acompaña la letra del teléfono hasta 1,3 (30 % más grande) y ahí se queda. Con la letra al máximo (2,0) el porcentaje del inicio se salía del aro, se pisaban textos y desbordaban 21 pantallas.
+- Arreglado con letra grande: la leyenda del Monitor de ping, los botones de IP pública, las pestañas y el título del Código de colores, el encabezado y la leyenda del Generador de claves, los chips y el título del Escáner de puertos, y las redes de Canales, que se pisaban.
+
+---
+
 ## [0.74.0] - 2026-10-03
 
 ### Todo gratis
 - Todo lo que era Pro ahora es gratis: Traceroute, DNS, Whois, Wake on LAN, UPnP, seguir una red en primera persona, los historiales completos, el fabricante de cada equipo, exportar y compartir, las celdas vecinas y más. Sin candados ni cupos.
 
 ### Publicidad que no molesta
-- Banner chico (Google AdMob) al pie de las pantallas de resultados, historiales y calculadoras. Nunca en el análisis del inicio, el Monitor de ping, un speed test o escaneo en curso, el analizador de canales ni el repartidor de fibra.
+- Banner chico (Google AdMob) al pie de las pantallas de resultados, historiales y calculadoras. Mientras corre un speed test o un escaneo, el banner se esconde.
 - En el Espacio Económico Europeo, el Reino Unido y Suiza la app pide consentimiento antes de mostrar anuncios personalizados; la elección se cambia en Ajustes, "Privacidad de anuncios".
 
 ### Pro ahora saca los anuncios

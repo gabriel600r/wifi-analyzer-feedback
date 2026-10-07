@@ -29,19 +29,24 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 
 ---
 
-## 🔥 NUEVO EN ESTA VERSIÓN (v0.74.0)
+## 🔥 NUEVO EN ESTA VERSIÓN (v0.74.1)
 
-### Todo gratis
+### Letra grande, sin romper nada
+- Si tu teléfono usa la letra agrandada, la app la acompaña hasta un **30 % más grande** y ahí se queda. Antes, con la letra al máximo, los números se salían de su lugar y había textos cortados.
+- Arreglado lo que se cortaba con letra grande en el Monitor de ping, IP pública, el Código de colores, el Generador de claves, el Escáner de puertos y la lista de redes de Canales.
+
+### En la v0.74.0
+
+#### Todo gratis
 - Todo lo que era Pro ahora es gratis: **Traceroute, DNS, Whois, Wake on LAN, UPnP**, seguir una red en primera persona, los historiales completos, el fabricante de cada equipo, exportar y compartir, las celdas vecinas y más. Sin candados ni cupos.
 
-### Publicidad que no molesta
-- A cambio, la app muestra un **banner chico** al pie de las pantallas de resultados, historiales y calculadoras.
-- **Nunca mientras medís:** ni en el análisis del inicio, ni en el Monitor de ping, ni en el speed test o un escaneo en curso, ni en el analizador de canales, ni en el repartidor de fibra.
+#### Publicidad que no molesta
+- A cambio, la app muestra un **banner chico** al pie de las pantallas de resultados, historiales y calculadoras. Mientras corre un speed test o un escaneo, el banner se esconde.
 
-### Pro ahora saca los anuncios
+#### Pro ahora saca los anuncios
 - Pro sigue siendo el mismo **pago único**, y ahora te deja usar la app sin publicidad. Si ya sos Pro, no vas a ver ningún anuncio. Está en el menú, en "Quitar anuncios".
 
-### Nombres de celdas, como en G-MoN
+#### Nombres de celdas, como en G-MoN
 - Importá un archivo **.clf** (el formato de G-MoN) en *Ajustes → Red móvil* y **Red Móvil** te dice en qué sitio estás: el nombre aparece en la sección Celda, en el historial de mediciones y en el informe que compartís.
 - Se busca por operador y Cell ID. Si tu celda no está pero otra del mismo eNB sí, muestra ese sitio y lo aclara. El archivo queda en tu teléfono.
 
@@ -116,7 +121,7 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 
 ## 💎 GRATIS, Y PRO SIN PUBLICIDAD
 
-Todas las herramientas son gratis, sin límites. La app se sostiene con un banner chico que aparece solo en resultados, historiales y calculadoras, nunca en la pantalla principal ni mientras medís.
+Todas las herramientas son gratis, sin límites. La app se sostiene con anuncios discretos.
 
 Si preferís no ver publicidad, **EgeaINC Pro** la saca para siempre con un pago único.
 
