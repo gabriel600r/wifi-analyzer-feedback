@@ -1,6 +1,6 @@
 # Privacy Policy — EgeaINC WiFi Analyzer
 
-**Last updated:** October 3, 2026
+**Last updated:** October 14, 2026
 
 ## Introduction
 
@@ -50,7 +50,7 @@ Several tools only work by contacting a service on the internet. The App contact
 | Traceroute (map) | ip-api.com | The IP addresses of the hops |
 | Traceroute (map tiles) | CARTO (basemaps.cartocdn.com) | Map tile requests |
 | DNS Lookup | Google (dns.google), Cloudflare, AdGuard or NextDNS, as you choose | The domain you look up |
-| Whois | rdap.org and the registry it points to | The domain you look up |
+| Whois | rdap.org and the registry it points to; the Whois servers of IANA, the registry and the registrar; Google (dns.google) for a domain's addresses and mail servers and for an IP's reverse DNS; ipapi.co, ip-api.com or ipwho.is for an IP's approximate location | The domain or IP you look up (for a domain, also its first IP address) |
 | Breach check (passwords) | Have I Been Pwned (api.pwnedpasswords.com) | Only the first 5 characters of the password's SHA-1 hash, never the password |
 | Ping Monitor, home analysis | Your router, 8.8.8.8, 1.1.1.1 or a target you choose | Ping packets |
 

@@ -29,9 +29,17 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 
 ---
 
-## 🔥 NUEVO EN ESTA VERSIÓN (v0.74.1)
+## 🔥 NUEVO EN ESTA VERSIÓN (v0.74.2)
 
-### Letra grande, sin romper nada
+### Whois con IP y muchos más datos
+- Escribí una **IP o un bloque** (8.8.8.8, 8.8.8.0/24, también IPv6) y ves a qué red pertenece, quién la tiene, el país, el contacto de abuso, el AS, el DNS inverso y la ubicación aproximada.
+- Si es una IP privada, de CGNAT o reservada, te explica qué es.
+- En los dominios se suman sus **IPs y dónde están alojadas**, los servidores de correo, el contacto de abuso del registrar, DNSSEC, cuánto falta para que venza y la respuesta completa.
+- Los dominios **.ar**, que daban error, ahora traen sus datos. También .cl, .io, .it, .jp y los dominios con eñe.
+
+### En la v0.74.1
+
+#### Letra grande, sin romper nada
 - Si tu teléfono usa la letra agrandada, la app la acompaña hasta un **30 % más grande** y ahí se queda. Antes, con la letra al máximo, los números se salían de su lugar y había textos cortados.
 - Arreglado lo que se cortaba con letra grande en el Monitor de ping, IP pública, el Código de colores, el Generador de claves, el Escáner de puertos y la lista de redes de Canales.
 
@@ -104,7 +112,7 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 - 🌍 **IP Pública:** Muestra tu IP externa, tu ISP y la ubicación aproximada.
 - 🛤️ **Traceroute:** La ruta salto por salto con sus tiempos, en un mapa y con comparación.
 - 🔎 **DNS Lookup:** Registros A, AAAA, MX, TXT, NS, CNAME y SOA, con el servidor que elijas.
-- 🕵️ **Whois:** Datos de registro de un dominio.
+- 🕵️ **Whois:** Datos de registro de un dominio o de una IP: titular, red, país, AS y ubicación.
 - ⚡ **Wake on LAN (WoL):** Enciende equipos de tu red a distancia.
 - 🔌 **Escáner UPnP:** Descubre dispositivos con UPnP activo.
 

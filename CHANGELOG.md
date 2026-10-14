@@ -7,6 +7,17 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ---
 
+## [0.74.2] - 2026-10-14
+
+### Whois con IP y más datos
+- Whois acepta una IP (v4 o v6) o un bloque (8.8.8.0/24): red, rango, bloque, tipo, registro regional (ARIN, LACNIC, RIPE NCC, APNIC o AFRINIC), titular, país, contacto de abuso, AS de origen, DNS inverso y ubicación aproximada con proveedor y zona horaria.
+- Las IP privadas, de CGNAT, loopback, de enlace local, multicast o reservadas se explican en vez de consultarse.
+- En los dominios: ID IANA y contacto de abuso del registrar, país del titular, DNSSEC, antigüedad y vencimiento, las IPs del dominio con su alojamiento (cada una se puede consultar), los servidores de correo y la respuesta completa del Whois clásico.
+- Los dominios .ar ahora traen sus datos (el RDAP de NIC Argentina no contesta: se usa el Whois clásico). También .cl, .io, .it, .jp, .de y los dominios con eñe o tildes.
+- Se puede pegar una URL del navegador: se limpia sola. Un subdominio sugiere consultar el dominio principal.
+
+---
+
 ## [0.74.1] - 2026-10-07
 
 ### Letra grande

@@ -29,9 +29,17 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 
 ---
 
-## 🔥 NEW IN THIS VERSION (v0.74.1)
+## 🔥 NEW IN THIS VERSION (v0.74.2)
 
-### Large text, nothing broken
+### Whois with IPs and much more data
+- Enter an **IP or a block** (8.8.8.8, 8.8.8.0/24, IPv6 too) to see which network it belongs to, who holds it, the country, the abuse contact, the AS, the reverse DNS and the approximate location.
+- If it is a private, CGNAT or reserved IP, it explains what it is.
+- Domains now add their **IPs and where they are hosted**, mail servers, the registrar abuse contact, DNSSEC, how long until they expire and the full response.
+- **.ar** domains, which used to fail, now bring their data. So do .cl, .io, .it, .jp and domains with accents.
+
+### In v0.74.1
+
+#### Large text, nothing broken
 - If your phone uses enlarged text, the app follows it up to **30% larger** and stops there. Before, with the largest setting, numbers spilled out of place and some text was cut off.
 - Fixed what got cut off with large text in the Ping monitor, Public IP, the Color code, the Password generator, the Port scanner and the network list in the channel analyzer.
 
@@ -104,7 +112,7 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 - 🌍 **Public IP:** Displays your external IP, your ISP and approximate location.
 - 🛤️ **Traceroute:** The route hop by hop with its times, on a map and with comparison.
 - 🔎 **DNS Lookup:** A, AAAA, MX, TXT, NS, CNAME and SOA records, with the server you choose.
-- 🕵️ **Whois:** Domain registration data.
+- 🕵️ **Whois:** Registration data for a domain or IP address: holder, network, country, AS and location.
 - ⚡ **Wake on LAN (WoL):** Turns on devices on your network remotely.
 - 🔌 **UPnP Scanner:** Discovers devices with UPnP enabled.
 
