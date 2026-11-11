@@ -55,9 +55,6 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 #### Everything is free
 - Everything that was Pro is now free: **Traceroute, DNS, Whois, Wake on LAN, UPnP**, tracking a network in first person, full histories, each device's vendor, export and share, neighbor cells and more. No locks, no limits.
 
-#### Ads that stay out of the way
-- In return, the app shows a **small banner** at the bottom of result, history and calculator screens. While a speed test or a scan is running, the banner hides.
-
 #### Pro now removes the ads
 - Pro is still the same **one-time purchase**, and now it lets you use the app without ads. If you are already Pro, you will not see any ads. Find it in the menu under "Remove ads".
 

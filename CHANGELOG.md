@@ -42,10 +42,6 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 ### Todo gratis
 - Todo lo que era Pro ahora es gratis: Traceroute, DNS, Whois, Wake on LAN, UPnP, seguir una red en primera persona, los historiales completos, el fabricante de cada equipo, exportar y compartir, las celdas vecinas y más. Sin candados ni cupos.
 
-### Publicidad que no molesta
-- Banner chico (Google AdMob) al pie de las pantallas de resultados, historiales y calculadoras. Mientras corre un speed test o un escaneo, el banner se esconde.
-- En el Espacio Económico Europeo, el Reino Unido y Suiza la app pide consentimiento antes de mostrar anuncios personalizados; la elección se cambia en Ajustes, "Privacidad de anuncios".
-
 ### Pro ahora saca los anuncios
 - Pro sigue siendo el mismo pago único y ahora quita la publicidad. Quien ya era Pro no ve anuncios. En el menú: "Quitar anuncios".
 

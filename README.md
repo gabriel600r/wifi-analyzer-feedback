@@ -55,9 +55,6 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 #### Todo gratis
 - Todo lo que era Pro ahora es gratis: **Traceroute, DNS, Whois, Wake on LAN, UPnP**, seguir una red en primera persona, los historiales completos, el fabricante de cada equipo, exportar y compartir, las celdas vecinas y más. Sin candados ni cupos.
 
-#### Publicidad que no molesta
-- A cambio, la app muestra un **banner chico** al pie de las pantallas de resultados, historiales y calculadoras. Mientras corre un speed test o un escaneo, el banner se esconde.
-
 #### Pro ahora saca los anuncios
 - Pro sigue siendo el mismo **pago único**, y ahora te deja usar la app sin publicidad. Si ya sos Pro, no vas a ver ningún anuncio. Está en el menú, en "Quitar anuncios".
 
