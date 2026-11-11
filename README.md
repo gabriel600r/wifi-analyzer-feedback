@@ -29,9 +29,16 @@ Monitorea tu red en tiempo real con una interfaz moderna y fluida estilo **cyber
 
 ---
 
-## 🔥 NUEVO EN ESTA VERSIÓN (v0.74.2)
+## 🔥 NUEVO EN ESTA VERSIÓN (v0.74.3)
 
-### Whois con IP y muchos más datos
+### Comprar y restaurar Pro, sin trabarse
+- Si Google Play deja de responder (pasa cuando se actualiza solo con la app abierta), la app se reconecta sola: **comprar Pro y "Restaurar compra" ya no se quedan trabados**.
+- "Restaurar compra" ahora dice qué pasó: restaurada, no encontrada o sin conexión con Google Play.
+- Si pagaste en efectivo y el pago todavía no se acreditó, te lo avisa en vez de decir que no hay compra. Pro se activa cuando se acredita.
+
+### En la v0.74.2
+
+#### Whois con IP y muchos más datos
 - Escribí una **IP o un bloque** (8.8.8.8, 8.8.8.0/24, también IPv6) y ves a qué red pertenece, quién la tiene, el país, el contacto de abuso, el AS, el DNS inverso y la ubicación aproximada.
 - Si es una IP privada, de CGNAT o reservada, te explica qué es.
 - En los dominios se suman sus **IPs y dónde están alojadas**, los servidores de correo, el contacto de abuso del registrar, DNSSEC, cuánto falta para que venza y la respuesta completa.

@@ -7,6 +7,17 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ---
 
+## [0.74.3] - 2026-11-10
+
+### Comprar y restaurar Pro
+- Si Google Play deja de responder (pasa cuando se actualiza solo con la app abierta), la app rehace la conexión sola. Antes, comprar Pro y "Restaurar compra" quedaban esperando para siempre, sin aviso, hasta cerrar la app.
+- Comprar Pro y "Restaurar compra" ya no esperan sin fin: si Google Play no contesta, se avisa y se puede volver a intentar. Mientras espera, el botón no se puede tocar de nuevo.
+- Si la tienda no estaba lista al abrir la app (sin red, o Google Play sin contestar), se reintenta al entrar a Pro.
+- "Restaurar compra" dice qué pasó, en Pro y en Ajustes: restaurada, no encontrada, pago todavía no acreditado o sin conexión con Google Play.
+- Pro se activa cuando el pago se acredita: con un pago en efectivo todavía pendiente, se avisa y se espera.
+
+---
+
 ## [0.74.2] - 2026-10-14
 
 ### Whois con IP y más datos

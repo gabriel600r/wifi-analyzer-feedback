@@ -29,9 +29,16 @@ Monitor your network in real-time with a modern and fluid **"glass" cyberpunk** 
 
 ---
 
-## 🔥 NEW IN THIS VERSION (v0.74.2)
+## 🔥 NEW IN THIS VERSION (v0.74.3)
 
-### Whois with IPs and much more data
+### Buying and restoring Pro, without getting stuck
+- If Google Play stops responding (it happens when it updates itself while the app is open), the app reconnects on its own: **buying Pro and "Restore purchase" no longer get stuck**.
+- "Restore purchase" now tells you what happened: restored, not found, or no connection to Google Play.
+- If you paid in cash and the payment hasn't cleared yet, it tells you so instead of saying there is no purchase. Pro turns on once it clears.
+
+### In v0.74.2
+
+#### Whois with IPs and much more data
 - Enter an **IP or a block** (8.8.8.8, 8.8.8.0/24, IPv6 too) to see which network it belongs to, who holds it, the country, the abuse contact, the AS, the reverse DNS and the approximate location.
 - If it is a private, CGNAT or reserved IP, it explains what it is.
 - Domains now add their **IPs and where they are hosted**, mail servers, the registrar abuse contact, DNSSEC, how long until they expire and the full response.
